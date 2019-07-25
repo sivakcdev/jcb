@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                eco 'test'
+                echo 'test'
             }
         }
         stage('Deploy') {
